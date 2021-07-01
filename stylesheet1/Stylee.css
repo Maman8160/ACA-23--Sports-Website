@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+    background: #000;
+}
+
+.first{
+    min-height: 100vh;
+    background: url("../Image/messi\ 01.jpg") center;
+    position: relative;
+    
+    background-size: cover;
+}
+
+.nav{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px ;
+}
+
+.nav02{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+    position : absolute ;
+    top : 0 ;
+    width: 100%;
+    
+}
+
+li{
+    list-style: none ;
+    padding-left: 36px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color : white ;
+}
+
+.text{
+    position: absolute;
+    top : 590px ;
+    left : 680px ;
+    color : white ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.secound{
+    background: url('../Image/wp6174542-messi-art-wallpapers.jpg') center;
+    min-height: 100vh ;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    position: relative;
+}
+
+.intro_1{
+    position: absolute;
+    width: 450px ;
+    text-align: justify;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    background: rgba(30, 34, 37, 0.4);
+    left : 15px ;
+    color:rgba(217, 204, 65, 1);
+}
+
+.intro_1 h1{
+    text-align: center;
+    color : white ;
+}
+
+.intro_2 {
+    position: absolute ;
+    text-align: justify;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    background: rgba(30, 34, 37, 0.4);
+    color:white;
+    margin-left: 655px;
+}
+
+.intro_2 h1 {
+    text-align: center;
+    color: orange;
+}
+
+table{
+    width: 700px;
+    border-collapse: collapse;
+    border: white 2px solid;
+}
+
+th, td{
+    border: olivedrab 2px solid;
+    text-align: center;
+    padding : 5px ;        
+}
+
+th{
+    color:paleturquoise;    
+}
+
+.intro_3{
+    position: absolute;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgba(30, 34, 37, 0.4);
+    margin-left: 480px;
+    margin-top: 350px;
+    color: orange;
+}
+.intro_3 p{
+    color: white;
+}
+
+.another{
+    background: url('../Image/sports.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 50vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.another h1{
+    text-align: center;
+    color: red;
+    background-color: white;
+    font-family:cursive;
+    font-size: 35px;
+}
+
+.last{
+    display: flex;
+    position: relative;
+}
+
+.rona{
+    position: absolute;
+    width : 270px ;
+    height: 100px ;
+    left : 3% ;
+    top : 50px ;
+    padding-top: 110px;
+    color : black ;
+    background: url("../Image/CR.jpg") no-repeat;
+    font-size: 22px ;
+    border-radius: 15px;
+}
+
+.pardeep{
+    position: absolute;
+    width : 300px ;
+    height: 170px ;
+    left : 40% ;
+    top : 55px ;
+    padding-top: 5px;
+    color :white ;
+    background: url("../Image/PN.jpg") no-repeat;
+    font-size: 22px ;
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Khabib{
+    position: absolute;
+    width : 300px ;
+    height: 170px ;
+    left : 80% ;
+    top : 55px ;
+    border-radius: 15px;
+    color :white ;
+    background: url("../Image/download.jpg") no-repeat;
+    font-size: 22px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
